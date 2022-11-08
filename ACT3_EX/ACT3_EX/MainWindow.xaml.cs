@@ -76,15 +76,22 @@ namespace ACT3_EX
         {
             MethodesDuProjet mesOutils = new MethodesDuProjet();
             string result;
-            int textbox1 = Convert.ToInt32(textBox1.Text);
-            int textbox2 = Convert.ToInt32(textBox2.Text);
-            int textbox3 = Convert.ToInt32(textBox3.Text);
-            mesOutils.ResoudreTrinome(textbox1, textbox2, textbox3, out result);
 
-            PageResultat secondPage = new PageResultat();
-            secondPage.textBlockResult.Text = secondPage.textBlockResult.Text + " " + result;
-            this.Visibility = Visibility.Hidden;
-            secondPage.Show();
+            double textbox1 = 0;
+            double textbox2 = 0;
+            double textbox3 = 0;
+
+            if (double.TryParse(textBox1.Text, out textbox1) && double.TryParse(textBox2.Text, out textbox2) && double.TryParse(textBox3.Text, out textbox3))
+            {
+                mesOutils.ResoudreTrinome(textbox1, textbox2, textbox3, out result);
+
+                PageResultat secondPage = new PageResultat();
+                secondPage.textBlockResult.Text = secondPage.textBlockResult.Text + " " + result;
+                this.Visibility = Visibility.Hidden;
+                secondPage.Show();
+
+            }
+
 
 
         }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Doria\\Desktop\\ACT3_EX\\ACT3_EX\\ACT3_EX.csproj",
+      "projectUniqueName": "C:\\Users\\Doria\\Desktop\\Cours\\Programmation\\Programmation_6TI\\WPF\\WPF_CalcSecondDegre\\ACT3_EX\\ACT3_EX\\ACT3_EX.csproj",
       "projectName": "ACT3_EX",
-      "projectPath": "C:\\Users\\Doria\\Desktop\\ACT3_EX\\ACT3_EX\\ACT3_EX.csproj",
+      "projectPath": "C:\\Users\\Doria\\Desktop\\Cours\\Programmation\\Programmation_6TI\\WPF\\WPF_CalcSecondDegre\\ACT3_EX\\ACT3_EX\\ACT3_EX.csproj",
       "packagesPath": "C:\\Users\\Doria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Doria\\Desktop\\ACT3_EX\\ACT3_EX\\obj\\",
+      "outputPath": "C:\\Users\\Doria\\Desktop\\Cours\\Programmation\\Programmation_6TI\\WPF\\WPF_CalcSecondDegre\\ACT3_EX\\ACT3_EX\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

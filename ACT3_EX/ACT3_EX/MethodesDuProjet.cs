@@ -8,7 +8,7 @@ namespace ACT3_EX
 {
     class MethodesDuProjet
     {
-        public void ResoudreTrinome(int a, int b, int c,out string result)
+        public void ResoudreTrinome(double a, double b, double c,out string result)
         {
             double Delta;
             result = "";
